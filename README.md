@@ -25,7 +25,10 @@
 ####  Primera necesidad
 
 `
-RECOMENDADO: Diagrama BPMN
+RECOMENDADO: Diagrama de actividades
+`
+`
+BASE DE DATOS: No relacional, Motivo: Imagenes
 `
 
  > Una aplicación web que permita a sus clientes ver el estado de sus pedidos desde una pantalla principal donde el cliente ingresa un número de cliente y un número de factura. La información a mostrar es el estado y, en caso de tener un estado de "Entregado", mostrar la foto de la evidencia de que fue entregado. Los estados son los siguientes:
@@ -40,6 +43,14 @@ RECOMENDADO: Diagrama BPMN
 *   **Entregado:** cuando el pedido ha sido entregado en las instalaciones del cliente.
 
 #### Segunda necesidad
+
+`
+RECOMENDADO: Diagrama de casos de uso, clases
+`
+`
+BASE DE DATOS: Relacional
+`
+
 > El personal que trabaja en la empresa puede acceder a un panel de control administrativo para llevar a cabo sus respectivas actividades. Esto requiere lo siguiente:
 
 - Que el sistema traiga por defecto un usuario administrativo, que pueda registrar nuevos usuarios y asignar roles a los usuarios.
@@ -50,12 +61,19 @@ RECOMENDADO: Diagrama BPMN
 	
     -  **Compras:** en caso de no tener algún material, estos son los usuarios que gestionan la compra de materiales.
 	
-- **Almacén:** quienes gestionan el almacén y preparan los pedidos para el envío, también informan a Compras sobre los materiales que no existen o tienen poco stock.
+    - **Almacén:** quienes gestionan el almacén y preparan los pedidos para el envío, también informan a Compras sobre los materiales que no existen o tienen poco stock.
 
-- **Ruta:** quienes supervisan la distribución de los pedidos a los clientes. 
+    - **Ruta:** quienes supervisan la distribución de los pedidos a los clientes. 
 
 
 #### Tercera necesidad
+
+`
+RECOMENDADO: Diagrama BPMN
+`
+`
+BASE DE DATOS: No relacional, Motivo: Imagenes
+`
 
 > Se respeta el ciclo de vida de un pedido:
 
@@ -85,6 +103,10 @@ RECOMENDADO: Diagrama BPMN
 
 ## Outcome 2
 ## Outcome 3
+
+## Metodologia del que se hara uso
+
+La realizacion de este proyecto se hara con la metodologia Agil `Scrum` para adaptarse a los cambios de requisitos, ciclos de desarrollo más cortos, mayor colaboración y comunicación, y enfoque en la entrega de valor.
 
 ## Tipos de diagramas utilizados y recomendados:
 
